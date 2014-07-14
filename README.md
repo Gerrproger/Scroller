@@ -1,4 +1,4 @@
 Scroller
 ========
 
-Easy scroll-to-page menu plugin
+Easy scroll-to-title menu plugin
