@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <title>Scroller demo</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="main.css">
+   <script src="jquery-2.1.1.min.js"></script>
+   <script src="../scroller.js"></script>
+</head>
+<body>
+	<nav><ul>
+		<li><a href="#anchor1">Anchor 1</a></li>
+		<li><a href="#anchor2">Anchor 2</a></li>
+		<li><a href="#anchor3">Anchor 3</a></li>
+		<li><a href="#anchor4">Anchor 4</a></li>
+	</ul></nav>
+	<main>
+		<h1>Scroller - buty of scrolling for anchors & one-page menus</h1>
+		<div class="space"></div>
+		<h2 id="anchor1">Anchor #1</h2>
+		<div class="space"></div>
+		<h2 id="anchor2">Anchor #2</h2>
+		<div class="space"></div>
+		<h2 id="anchor3">Anchor #3</h2>
+		<div class="space"></div>
+		<h2 id="anchor4">Anchor #4</h2>
+		<div class="space"></div>
+		<div class="space"></div>
+	</main>
+
+<script>
+$(function(){
+	scroller({shift: 40, setHashOnScroll: true});
+	$('h2').scroller();
+});
+</script>
+</body>
+</html>

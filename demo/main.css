@@ -1,0 +1,47 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font: 500 1rem Verdana;
+}
+
+main {
+	max-width: 600px;
+	width: 100%;
+	margin: 60px auto;
+}
+h2 {
+	cursor: pointer;
+}
+.space {
+	height: 300px;
+}
+
+nav {
+	height: 30px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	background: #eee;
+}
+nav ul {
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+
+}
+nav li {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 20px 0 0
+}
+nav a {
+	color: #555;
+}
+nav a.active {
+	color: #ff0000;
+}
