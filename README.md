@@ -3,7 +3,9 @@ Scroller
 
 Easy scroll-to-title menu plugin
 
-Now available only version for [jQuery](http://jquery.com/)
+Version for [jQuery](http://jquery.com/)
+
+##<a href="http://gerrproger.github.io/Scroller/" target="_blank">Live Demo</a>
 
 ## Usage
 Add `data-target` attribute that includes `id` of the title to links
