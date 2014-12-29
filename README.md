@@ -37,7 +37,8 @@ _You must specify an `id` of the target, no `#` is needed for `data-target`._
    <a href="#mySecondId" data-sift="-100">Just another link</a>
 ```
 _This value would be caсhed, so you can set it only for the first time (if several links has the same target)._
----------------
+  
+-------
 #### _After the initialization `id`'s would be changed! At the end of the value would be added the [special char](#settingsadditionalchar)_
 
 
