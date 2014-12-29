@@ -39,7 +39,7 @@ _You must specify an `id` of the target, no `#` is needed for `data-target`._
 _This value would be caсhed, so you can set it only for the first time (if several links has the same target)._
 <br/>
 ---------------
-#### _After the initialization `id`'s would be changed! At the end of the value would be added [special char](#[My link](#mylink))_
+#### _After the initialization `id`'s would be changed! At the end of the value would be added the [special char](#settings.additionalChar)_
 
 
 ## Settings
@@ -60,28 +60,28 @@ The shift of the scrolling position for all links (in px). Can be overwritten by
 ```javascript
 scroller({shift: 10});
 ```
-<br/>*Default:* 0
+*Default:* 0
 
 ### settings.time
 Sets the duration of the scrolling effect (in ms).
 ```javascript
 scroller({time: 500});
 ```
-<br/>*Default:* 300
+*Default:* 300
 
 ### settings.addClass
 Would add the `active` class to the links during the scroll (and user scroll too)
 ```javascript
 scroller({addClasst: false});
 ```
-<br/>*Default:* true
+*Default:* true
 
 ### settings.setHashOnClick
 Will change the hash of the page url on the link click.
 ```javascript
 scroller({setHashOnClickt: false});
 ```
-<br/>*Default:* true
+*Default:* true
 
 ### settings.setHashOnScroll
 Will change the hash of the page url while the user would be scrolling the page.<br/>
@@ -89,14 +89,14 @@ _Can be laggy on macs_
 ```javascript
 scroller({setHashOnScroll: true});
 ```
-<br/>*Default:* false
+*Default:* false
 
 ### settings.scrollOnLoad
 It will scroll on page load to the target with the `id` specified in the url hash (if hash specified)
 ```javascript
 scroller({scrollOnLoad: false});
 ```
-<br/>*Default:* true
+*Default:* true
 
 ### settings.additionalChar
 You can change char which is add to the target id's.
@@ -104,4 +104,4 @@ _Experemental and not recommended_
 ```javascript
 scroller({additionalChar: '_'});
 ```
-<br/>*Default:* •
+*Default:* •
