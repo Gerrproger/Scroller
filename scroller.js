@@ -1,9 +1,9 @@
 /*!
  * Scroller - buty of scrolling for anchors & one-page menus
  * @version  v1.0
- * @author   Evgenii Dulikov
+ * @author   Gerrproger
  * http://datatables.net/license_gpl2
- * Copyright 2014 Evgenii Dulikov <gerrproger@gmail.com>
+ * Copyright 2014 Gerrproger <gerrproger@gmail.com>
  * https://github.com/Gerrproger/Scroller
  */
 
